@@ -1,0 +1,14 @@
+layout.css.devPixelsPerPx ---- type about:config in the browser and accept and then search this keyword and type 2.0 in the window and click ok then the browser will work as retina resolution
+
+include retina.js file and include attribute with @2x image --- we need to use two images one is with @1x for simple device and second with @2x for retina device
+
+/*--------media query for retina devices------------*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+	
+}
